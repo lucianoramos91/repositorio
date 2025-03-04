@@ -1,0 +1,118 @@
+Como Usar Git e GitHub no Windows (Resumido)
+Instale o Git:
+
+Baixe em https://git-scm.com/ e instale com as configurações padrão.
+
+Configure o Git:
+
+Abra o Git Bash e configure nome e e-mail:
+
+bash
+Copy
+git config --global user.name "Seu Nome"
+git config --global user.email "seuemail@exemplo.com"
+Crie um Repositório Local:
+
+Navegue até a pasta do projeto:
+
+bash
+Copy
+cd caminho/da/pasta
+Inicie o Git:
+
+bash
+Copy
+git init
+Adicione e Commite Alterações:
+
+Adicione arquivos:
+
+bash
+Copy
+git add nome_do_arquivo
+Ou todos os arquivos:
+
+bash
+Copy
+git add .
+Faça um commit:
+
+bash
+Copy
+git commit -m "Mensagem do commit"
+Conecte ao GitHub:
+
+Crie um repositório no GitHub.
+
+Adicione o repositório remoto:
+
+bash
+Copy
+git remote add origin https://github.com/seu_usuario/nome_do_repositorio.git
+Envie as alterações:
+
+bash
+Copy
+git push origin main
+Clone um Repositório Existente:
+
+Para clonar um repositório:
+
+bash
+Copy
+git clone https://github.com/seu_usuario/nome_do_repositorio.git
+Atualize o Repositório Local:
+
+Baixe as alterações mais recentes:
+
+bash
+Copy
+git pull origin main
+Trabalhe com Branches:
+
+Crie uma nova branch:
+
+bash
+Copy
+git branch nome_da_branch
+Mude para a branch:
+
+bash
+Copy
+git checkout nome_da_branch
+Crie e mude para uma branch em um comando:
+
+bash
+Copy
+git checkout -b nome_da_branch
+Comandos Úteis:
+
+Verifique o status:
+
+bash
+Copy
+git status
+Veja o histórico de commits:
+
+bash
+Copy
+git log
+Desfaça alterações antes de commitar:
+
+bash
+Copy
+git checkout -- nome_do_arquivo
+Resolva Conflitos:
+
+Edite os arquivos com conflitos, resolva e depois:
+
+bash
+Copy
+git add nome_do_arquivo
+git commit -m "Resolvendo conflitos"
+Dicas:
+Use git pull antes de começar a trabalhar.
+
+Use branches para organizar seu trabalho.
+
+Faça commits frequentes com mensagens claras.
